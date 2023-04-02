@@ -1,15 +1,20 @@
 ---
 title: "Lindsay Katz"
+about:
+  template: trestles
+  image: headshot.png
+  image-shape: round
+  links: 
+    - icon: envelope
+      href: mailto:lindsay.katz@mail.utoronto.ca
+    - icon: github
+      href: https://github.com/lindsaykatz
 ---
-
-![](headshot.png){width="311"}
 
 I am a recent graduate of the Masters of Statistics program at the University of Toronto. I completed my undergraduate degree at the University of Guelph, where I studied international development and mathematical science.
 
-I currently work as a Research Assistant for Professor Rohan Alexander, to digitize the Australian parliamentary debates from 1901 to present, and for Professor Monica Alexander, to research demographic variation in short-term migration patterns using Facebook data.
+I currently work as a Research Assistant for Dr. Rohan Alexander, to digitize the Australian parliamentary debates from 1901 to present, and for Dr. Monica Alexander, to research demographic variation in short-term migration patterns using Facebook data. You can read more about both of these projects [here](work.qmd#hansard).
 
 I have recently joined the [Investigative Journalism Foundation](http://theijf.org) team as a developer, with the goal of implementing data validation tools to improve the quality and reliability of their databases.
 
 As an interdisciplinary researcher, I am interested in using statistics to better understand social processes in the world.
-
-A full CV can be found [here](https://drive.google.com/file/d/1OQw1nn52Fhz5ogaVrxTAmsNNNeYFuDaz/view?usp=sharing).

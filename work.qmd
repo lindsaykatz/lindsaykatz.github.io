@@ -1,0 +1,13 @@
+---
+title: "My Work"
+---
+
+Since completing my graduate studies, I have worked on a number of interesting research projects across disciplines including demography, political science, and international development. On this page you will find details on two of these.
+
+### Digitization of the Australian Parliamentary Debates (1998-2022) {#hansard}
+
+Currently, the Australian Parliamentary debates (also known as Hansard) exist in a form which is not usable for large-scale analysis. My work with Dr. Rohan Alexander aims to bridge this gap by producing a comprehensive, accessible database of these proceedings. I developed R scripts to parse and clean all XML versions of the Australian parliamentary debates from 1998 to 2022. We then created a suite of automated tests to validate our database, which I developed into an R script. I have given a number of presentations on this work, including a talk at the [Toronto Workshop on Reproducibility](https://www.youtube.com/watch?v=laYLKYIBOkA&t=1s), a seminar at [Western University](https://nest.uwo.ca/cspb/news__events/innovative_datasets_for_research_workshop.html), and a poster at the Toronto Political Behaviour Workshop.
+
+### Measuring short-term mobility in North America using Facebook data {#fb}
+
+There is a growing interest in the use of non-traditional data sources to capture patterns in short-term mobility, which are often more granular and timely than traditional survey or census data. In my work with Dr. Monica Alexander and Michael Chong, we scraped Facebook's advertising platform to collect daily and monthly counts of travellers in each province in Canada and state in the US, as well as the total daily and monthly population (i.e. number of users) for each region. I visually explored these data with time series plots of daily travel by region, and computed a number of summary statistics which aim to capture seasonality and gender differences in travel observed in those plots. Informed by these empirical and visual findings, I then helped to develop a conceptual framework under which states and provinces could be categorized in terms of trends in short-term mobility. I created a [Shiny app](https://lindsaykatz.shinyapps.io/travel_rate_plots/) that allows users to explore these time series plots and the data for each region.

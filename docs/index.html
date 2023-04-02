@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -63,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,8 +83,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
- <span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="./work.html">
+ <span class="menu-text">My Work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.pdf">
+ <span class="menu-text">CV</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -97,39 +100,40 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="headshot.png" class="about-image
+  round " style="height: 20em; width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Lindsay Katz</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
 </header>
-
-<p><img src="headshot.png" class="img-fluid" width="311"></p>
+    <div class="about-links">
+  <a href="mailto:lindsay.katz@mail.utoronto.ca" class="about-link">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="https://github.com/lindsaykatz" class="about-link">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text"></span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 <p>I am a recent graduate of the Masters of Statistics program at the University of Toronto. I completed my undergraduate degree at the University of Guelph, where I studied international development and mathematical science.</p>
-<p>I currently work as a Research Assistant for Professor Rohan Alexander, to digitize the Australian parliamentary debates from 1901 to present, and for Professor Monica Alexander, to research demographic variation in short-term migration patterns using Facebook data.</p>
+<p>I currently work as a Research Assistant for Dr.&nbsp;Rohan Alexander, to digitize the Australian parliamentary debates from 1901 to present, and for Dr.&nbsp;Monica Alexander, to research demographic variation in short-term migration patterns using Facebook data. You can read more about both of these projects <a href="./work.html#hansard">here</a>.</p>
 <p>I have recently joined the <a href="http://theijf.org">Investigative Journalism Foundation</a> team as a developer, with the goal of implementing data validation tools to improve the quality and reliability of their databases.</p>
 <p>As an interdisciplinary researcher, I am interested in using statistics to better understand social processes in the world.</p>
-<p>A full CV can be found <a href="https://drive.google.com/file/d/1OQw1nn52Fhz5ogaVrxTAmsNNNeYFuDaz/view?usp=sharing">here</a>.</p>
 
 
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -150,13 +154,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
