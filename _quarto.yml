@@ -12,7 +12,7 @@ website:
         text: Home
       - work.qmd
       - text: CV
-        href: /cv.pdf
+        href: /katz-cv.pdf
 
 format:
   html:

@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "My Work",
     "section": "",
-    "text": "You can contact me via e-mail at lindsay.katz@mail.utoronto.ca."
+    "text": "Since completing my graduate studies, I have worked on a number of interesting research projects across disciplines including demography, political science, and international development. On this page you will find details on two of these.\n\nDigitization of the Australian Parliamentary Debates (1998-2022)\nCurrently, the Australian Parliamentary debates (also known as Hansard) exist in a form which is not usable for large-scale analysis. My work with Dr. Rohan Alexander aims to bridge this gap by producing a comprehensive, accessible database of these proceedings. I developed R scripts to parse and clean all XML versions of the Australian parliamentary debates from 1998 to 2022. We then created a suite of automated tests to validate our database, which I developed into an R script. I have given a number of presentations on this work, including a talk at the Toronto Workshop on Reproducibility, a seminar at Western University, and a poster at the Toronto Political Behaviour Workshop.\n\n\nMeasuring short-term mobility in North America using Facebook data\nThere is a growing interest in the use of non-traditional data sources to capture patterns in short-term mobility, which are often more granular and timely than traditional survey or census data. In my work with Dr. Monica Alexander and Michael Chong, we scraped Facebook’s advertising platform to collect daily and monthly counts of travellers in each province in Canada and state in the US, as well as the total daily and monthly population (i.e. number of users) for each region. I visually explored these data with time series plots of daily travel by region, and computed a number of summary statistics which aim to capture seasonality and gender differences in travel observed in those plots. Informed by these empirical and visual findings, I then helped to develop a conceptual framework under which states and provinces could be categorized in terms of trends in short-term mobility. I created a Shiny app that allows users to explore these time series plots and the data for each region."
   },
   {
     "objectID": "index.html",
@@ -19,12 +19,5 @@
     "title": "About",
     "section": "",
     "text": "I am a recent graduate of the Masters of Statistics program at the University of Toronto. I completed my undergraduate degree at the University of Guelph, where I studied international development and mathematical science.\nI currently work as a Research Assistant for Professor Rohan Alexander, to digitize the Australian parliamentary debates from 1901 to present, and for Professor Monica Alexander, to research demographic variation in short-term migration patterns using Facebook data.\nI have recently joined the Investigative Journalism Foundation team as a developer, with the goal of implementing data validation tools to improve the quality and reliability of their databases.\nAs an interdisciplinary researcher, I am interested in using statistics to better understand social processes in the world.\nA full CV can be found here."
-  },
-  {
-    "objectID": "work.html",
-    "href": "work.html",
-    "title": "My Work",
-    "section": "",
-    "text": "Since completing my graduate studies, I have worked on a number of interesting research projects across disciplines including demography, political science, and international development. On this page you will find details on two of these.\n\nDigitization of the Australian Parliamentary Debates (1998-2022)\nCurrently, the Australian Parliamentary debates (also known as Hansard) exist in a form which is not usable for large-scale analysis. My work with Dr. Rohan Alexander aims to bridge this gap by producing a comprehensive, accessible database of these proceedings. I developed R scripts to parse and clean all XML versions of the Australian parliamentary debates from 1998 to 2022. We then created a suite of automated tests to validate our database, which I developed into an R script. I have given a number of presentations on this work, including a talk at the Toronto Workshop on Reproducibility, a seminar at Western University, and a poster at the Toronto Political Behaviour Workshop.\n\n\nMeasuring short-term mobility in North America using Facebook data\nThere is a growing interest in the use of non-traditional data sources to capture patterns in short-term mobility, which are often more granular and timely than traditional survey or census data. In my work with Dr. Monica Alexander and Michael Chong, we scraped Facebook’s advertising platform to collect daily and monthly counts of travellers in each province in Canada and state in the US, as well as the total daily and monthly population (i.e. number of users) for each region. I visually explored these data with time series plots of daily travel by region, and computed a number of summary statistics which aim to capture seasonality and gender differences in travel observed in those plots. Informed by these empirical and visual findings, I then helped to develop a conceptual framework under which states and provinces could be categorized in terms of trends in short-term mobility. I created a Shiny app that allows users to explore these time series plots and the data for each region."
   }
 ]

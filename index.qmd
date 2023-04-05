@@ -9,6 +9,8 @@ about:
       href: mailto:lindsay.katz@mail.utoronto.ca
     - icon: github
       href: https://github.com/lindsaykatz
+    - icon: linkedin
+      href: https://www.linkedin.com/in/lindsaykatz16/
 ---
 
 I am a recent graduate of the Masters of Statistics program at the University of Toronto. I completed my undergraduate degree at the University of Guelph, where I studied international development and mathematical science.
